@@ -7,7 +7,7 @@
 <!-- *(Aquí puedes insertar una captura de pantalla de la aplicación en funcionamiento)* un .gif en images-->
 ![Captura de pantalla de la app InspQuotes mostrando una cita](images/app.gif)
 
-`[ALT-TEXT: Captura de pantalla de la app InspQuotes mostrando una cita]`
+
 
 ## 📜 Descripción
 
@@ -47,10 +47,10 @@ Para compilar y ejecutar esta aplicación en tu wearable, primero debes habilita
 2. Navega a **Sistema** >  **Información** .
 3. Encuentra y pulsa repetidamente sobre el **Número de compilación** (usualmente 7 veces) hasta que aparezca el mensaje "¡Ahora eres un desarrollador!".
    ![Captura de pantalla del número de compilación en Wear OS](images/sc1.png)
-   `[ALT-TEXT: Imagen de la pantalla 'Información' en Wear OS, destacando el número de compilación]`
+
 4. Vuelve al menú principal de Ajustes. Ahora verás una nueva opción llamada  **Opciones para desarrolladores** .
 ![Captura de pantalla del menú de Ajustes en Wear OS con las Opciones para desarrolladores visibles](images/sc2.png)
-   `[ALT-TEXT: Imagen del menú de Ajustes en Wear OS con las Opciones para desarrolladores visibles]`
+
 
 ### 2. Conectar tu Wearable a Android Studio por Wi-Fi
 
@@ -58,16 +58,16 @@ Para compilar y ejecutar esta aplicación en tu wearable, primero debes habilita
 2. En tu reloj, ve a **Ajustes** >  **Opciones para desarrolladores** .
 3. Activa la  **Depuración por Wi-Fi** .
     ![Captura de pantalla de la opción de Depuración por Wi-Fi en Wear OS](images/sc3.png)
-    `[ALT-TEXT: Imagen de la pantalla de opciones para desarrolladores en Wear OS, con la opción 'Depuración por Wi-Fi' activada]`
+
 4. Selecciona  **Vincular nuevo dispositivo** . Aparecerá un código de vinculación en la pantalla.  
     ![Captura de pantalla del código de vinculación en Wear OS](images/sc4.png)
-   `[ALT-TEXT: Imagen de un reloj Wear OS mostrando el código de vinculación para la depuración por Wi-Fi]`
+
 5. En Android Studio, ve al menú de selección de dispositivos (junto al botón de "Run") y elige  **Pair Devices Using Wi-Fi** .
 ![Captura de pantalla del menú de dispositivos en Android Studio](images/sc5.png)
-   `[ALT-TEXT: Captura de pantalla del menú de dispositivos en Android Studio, con la opción 'Pair Devices Using Wi-Fi' resaltada]`
+
 6. Se abrirá una ventana emergente. Selecciona  **Vincular mediante código de vinculación** .
 7. Introduce el código que se muestra en tu reloj y haz clic en  **Pair** .
 ![Captura de pantalla de la ventana emergente en Android Studio para introducir el código de vinculación](images/sc6.png)
-   `[ALT-TEXT: Captura de pantalla de la ventana emergente en Android Studio para introducir el código de vinculación]`
+
 
 Una vez completados estos pasos, tu wearable aparecerá en la lista de dispositivos de Android Studio, y podrás instalar y depurar la aplicación `InspQuotes` directamente en él.
